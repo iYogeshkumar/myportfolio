@@ -23,6 +23,8 @@ import hotstar from "../../Assets/Requird-image/hotstar.png"
 import bigbasket from "../../Assets/Requird-image/bigbasket.png"
 import bobbi from "../../Assets/Requird-image/bobbi.png"
 import McDonald from "../../Assets/Requird-image/mcd.png"
+import sugarcosmetic from "../../Assets/Requird-image/sugarcosmetic.png"
+import loseit from "../../Assets/Requird-image/loseit.png"
 
 
 
@@ -38,6 +40,54 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
+                  src={sugarcosmetic}
+                  alt="sugarcosmetic"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>
+sugar-cosmetics-clone</h2>
+              <p>
+              "Sugar Cosmetics is a leading E-commerce platform selling various cosmetics products. Built on React,Redux, CSS for frontend and mongodb, Nodejs, Expressjs for backend. It's a team project of 5 members executed in 6 days.
+              </p>
+              <div>
+                <FaReact />
+                {/* <SiHtml5 />
+                <IoLogoJavascript /> */}
+                <SiNodedotjs />
+                <SiExpress />
+                <SiMongodb />
+              </div>
+              <div>
+                <a
+                  href="https://sugar-cosmetics-clone-sand.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/iYogeshkumar/sugar-cosmetics-clone"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
                   src={bobbi}
                   alt="bobbibrowncosmetics.com"
                 />
@@ -47,7 +97,7 @@ export const Projects = () => {
               <h2>Bobbi Brown-clone</h2>
               <p>
               "Bobbi Brown Cosmetics is a global commercial E-
-Commerce website for beauty products. Built on HTML, CSS, JavaScript for front end and Localstorage on backend. It's a team project completed executed in 6 days.
+Commerce website for beauty products. Built on HTML, CSS, JavaScript for front end and Localstorage on backend. It's a team project of 6 members executed in 6 days.
               </p>
               <div>
                 <FaReact />
@@ -128,6 +178,55 @@ Commerce website for beauty products. Built on HTML, CSS, JavaScript for front e
             </div>
           </div>
         </div>
+
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src={loseit}
+                  alt="loseit"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>
+Lose it!-clone</h2>
+              <p>
+              "Lose It! is a calorie counter and food diary diet website/App that helps you stick to your diet and achieve weight loss that fits. Built on React,Redux, CSS for frontend and mongodb, Nodejs, Expressjs for backend. It's a team project of 4 members executed in 5 days.
+              </p>
+              <div>
+                <FaReact />
+                {/* <SiHtml5 />
+                <IoLogoJavascript /> */}
+                <SiNodedotjs />
+                <SiExpress />
+                <SiMongodb />
+              </div>
+              <div>
+                <a
+                  href="https://loseit-clone.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/iYogeshkumar/Lose-it-clone"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
