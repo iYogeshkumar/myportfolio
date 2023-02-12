@@ -61,7 +61,7 @@ sugar-cosmetics-clone</h2>
               </div>
               <div>
                 <a
-                  href="https://sugar-cosmetics-clone-sand.vercel.app/"
+                  href="https://sugar-cosmetics-clone-one.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
