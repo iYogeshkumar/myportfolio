@@ -17,7 +17,7 @@ export const Contact = () => {
         </h2>
         <div className={"contactcontainer " + themename} data-aos="fade-right">
           <a
-            href="https://www.linkedin.com/in/yogeshkumar21101995/"
+            href="https://www.linkedin.com/in/yogeshkumar21/"
             target="_blank"
             rel="noreferrer"
           >
